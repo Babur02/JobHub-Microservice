@@ -1,0 +1,21 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "JobmicroserviceApplication",
+      "request": "launch",
+      "mainClass": "com.babar.jobmicroservice.JobmicroserviceApplication",
+      "projectName": "jobmicroservice"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-ServiceRegApplication<service-reg>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.babar.service_reg.ServiceRegApplication",
+      "projectName": "service-reg",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}
